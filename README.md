@@ -59,3 +59,17 @@ The system uses supervised learning techniques to identify patterns in historica
 
 ## 📂 Project Structure
 
+ml-predictive-analytics-system/
+│
+├── data/ # Raw and processed datasets
+├── notebooks/ # Experiments and analysis
+├── src/
+│ ├── preprocessing.py # Data cleaning & preparation
+│ ├── features.py # Feature engineering
+│ ├── train.py # Model training
+│ ├── evaluate.py # Model evaluation
+│ └── predict.py # Prediction logic
+│
+├── models/ # Saved trained models
+├── requirements.txt # Project dependencies
+└── README.md
